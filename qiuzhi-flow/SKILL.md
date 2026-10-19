@@ -13,7 +13,7 @@ description: 求职全流程编排入口。当用户开始求职、收到 JD 或
 收到 JD / 企业名
       │
       ▼
-① 企业独立分析 → qiuzhi-company-analysis（输出 {企业}分析.md）
+① 企业独立分析 → qiuzhi-company-analysis（输出 公司分析/{企业}分析.md）
       │
       ▼
 ② 简历编写 → qiuzhi-resume（输出 简历.md/html/pdf）
@@ -22,7 +22,7 @@ description: 求职全流程编排入口。当用户开始求职、收到 JD 或
 ③ 面试准备 → qiuzhi-interview-prep（输出 面试细节.md 专项章节）
       │
       ▼
-④ 面试执行+复盘 → qiuzhi-interview-review（更新 面试细节.md + {企业}分析.md）
+④ 面试执行+复盘 → qiuzhi-interview-review（更新 面试细节.md + 公司分析/{企业}分析.md）
       │
       ▼
 ⑤ 多 offer 对比 → qiuzhi-offer-compare（输出 企业对比.md）
@@ -63,7 +63,7 @@ description: 求职全流程编排入口。当用户开始求职、收到 JD 或
 | 工作经验.md | 工作经历素材 | 素材补充时 |
 | 个人特长.md | 能力/特长素材 | 素材补充时 |
 | 相关企业.md | 企业登记/排除/分类 | 每接触一家企业 |
-| {企业}分析.md | 单家企业深度分析 | 面试情报回流时 |
+| 公司分析/{企业}分析.md | 单家企业深度分析（统一归档于 公司分析/ 子文件夹） | 面试情报回流时 |
 | 企业对比.md | 多 offer 对比与决策 | 每次对比/谈判后 |
 | 面试细节.md | 面试准备 + 复盘 | 每次面试前后 |
 | 简历.md / html / pdf | 最终交付物 | 简历调整时 |

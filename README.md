@@ -7,7 +7,7 @@
 | Skill | 职责 | 触发场景 |
 |-------|------|----------|
 | [qiuzhi-flow](qiuzhi-flow/SKILL.md) | 求职流程编排总入口，判断阶段路由到子 skill | 开始求职、收到 JD、谈薪资 |
-| [qiuzhi-company-analysis](qiuzhi-company-analysis/SKILL.md) | 企业独立分析（五维评分+结论先行），输出 {企业}分析.md | 这家公司怎么样、分析这个 JD |
+| [qiuzhi-company-analysis](qiuzhi-company-analysis/SKILL.md) | 企业独立分析（五维评分+结论先行），输出 公司分析/{企业}分析.md | 这家公司怎么样、分析这个 JD |
 | [qiuzhi-resume](qiuzhi-resume/SKILL.md) | 简历编写（AI 实践优先+素材追问+md/html/pdf 三格式产出） | 写简历、改简历 |
 | [qiuzhi-interview-prep](qiuzhi-interview-prep/SKILL.md) | 面试准备（岗位理解+预判问答+分轮应对+主线速记） | 这个岗位怎么面试、准备面试清单 |
 | [qiuzhi-interview-review](qiuzhi-interview-review/SKILL.md) | 面试复盘（概率评估+情报回流+自我误判修正） | 刚面完复盘、这轮怎么样 |
